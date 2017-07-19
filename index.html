@@ -22,7 +22,6 @@
   <option value="all">All Agents</option>
   <option value="sue">Sue Dickinson</option>
   <option value="david">David Barron</option>
-  <option value="deneen">Deneen Benham</option>
   <option value="vickie">Vickie Blattner</option>
   <option value="stacey">Stacey Coffman</option>
   <option value="glenn">Glenn Coker</option>
@@ -30,6 +29,7 @@
   <option value="gary">Gary Dunckel</option>
   <option value="holli">Holli Gomes</option>
   <option value="mikeg">Michael Graham</option>
+  <option value="chris">Chris Hocquard</option>
   <option value="leo">Leo Maguire</option>
   <option value="ron">Ron Maguire</option>
   <option value="mikem">Michael Martin</option>
@@ -65,7 +65,6 @@ document.getElementById("space6").style.display="block";
 document.getElementById("space7").style.display="block";
 document.getElementById("sue").style.display="block";
 document.getElementById("david").style.display="block";
-document.getElementById("deneen").style.display="block";
 document.getElementById("vickie").style.display="block";
 document.getElementById("stacey").style.display="block";
 document.getElementById("glenn").style.display="block";
@@ -73,6 +72,7 @@ document.getElementById("leonard").style.display="block";
 document.getElementById("gary").style.display="block";
 document.getElementById("holli").style.display="block";
 document.getElementById("mikeg").style.display="block";
+document.getElementById("chris").style.display="block";
 document.getElementById("leo").style.display="block";
 document.getElementById("ron").style.display="block";
 document.getElementById("mikem").style.display="block";
@@ -96,7 +96,6 @@ document.getElementById("space6").style.display="none";
 document.getElementById("space7").style.display="none";
 document.getElementById("sue").style.display="none";
 document.getElementById("david").style.display="none";
-document.getElementById("deneen").style.display="none";
 document.getElementById("vickie").style.display="none";
 document.getElementById("stacey").style.display="none";
 document.getElementById("glenn").style.display="none";
@@ -104,6 +103,7 @@ document.getElementById("leonard").style.display="none";
 document.getElementById("gary").style.display="none";
 document.getElementById("holli").style.display="none";
 document.getElementById("mikeg").style.display="none";
+document.getElementById("chris").style.display="none";
 document.getElementById("leo").style.display="none";
 document.getElementById("ron").style.display="none";
 document.getElementById("mikem").style.display="none";
@@ -122,9 +122,6 @@ document.getElementById("demo").innerHTML = document.getElementById("sue").inner
 }
   if (x === "david") {
 document.getElementById("demo").innerHTML = document.getElementById("david").innerHTML;
-}
-  if (x === "deneen") {
-document.getElementById("demo").innerHTML = document.getElementById("deneen").innerHTML;
 }
   if (x === "vickie") {
 document.getElementById("demo").innerHTML = document.getElementById("vickie").innerHTML;
@@ -146,6 +143,9 @@ document.getElementById("demo").innerHTML = document.getElementById("holli").inn
 }
   if (x === "mikeg") {
 document.getElementById("demo").innerHTML = document.getElementById("mikeg").innerHTML;
+}
+  if (x === "chris") {
+document.getElementById("demo").innerHTML = document.getElementById("chris").innerHTML;
 }
   if (x === "leo") {
 document.getElementById("demo").innerHTML = document.getElementById("leo").innerHTML;
@@ -213,23 +213,7 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-4 center" id="deneen">
-    <a href="http://www.exitselectpartners.com/agents/8-Deneen-Benham/listings/" target="_blank"><img class="resize" src="https://image.ibb.co/e6dAGQ/Deneen.jpg" alt="Deneen Benham, REALTOR&reg;" border="0"></a>
-    <span class="textLeft">
-      <h3>Deneen Benham
-      <span class="font80">REALTOR&reg;</span></h3><br>
-      <a href="https://www.zillow.com/profile/Deneen1217/#reviews" target="_blank">Zillow Review</a>
-    </span>
-  </div>
-
-
-</div>
-
-<div class="row">
-
-  <div class="col-1 space" id="space2"></div>
-
-  <div class="col-2 center" id="vickie">
+  <div class="col-4 center" id="vickie">
     <a href="http://www.exitselectpartners.com/agents/3-Vickie-Blattner/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_3_photo-1480550378.jpg/t1/175x300" alt="Vickie Blattner, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
       <h3>Vickie Blattner
@@ -240,7 +224,15 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-3 center" id="stacey">
+
+
+</div>
+
+<div class="row">
+
+  <div class="col-1 space" id="space2"></div>
+
+  <div class="col-2 center" id="stacey">
     <a href="http://www.exitselectpartners.com/agents/14-Stacey-Coffman/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_14_photo-1452797042.jpg/t1/175x300" alt="Stacey Coffman, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -251,7 +243,7 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-4 center" id="glenn">
+  <div class="col-3 center" id="glenn">
     <a href="http://www.exitselectpartners.com/agents/7-Glenn-Coker/listings/" target="_blank">
     <img class="resize" src="https://image.ibb.co/iYS9Ak/Glenn.jpg" alt="Glenn Coker, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -261,13 +253,8 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <a href="http://www.realtor.com/realestateagents/Glenn-Coker_Okemos_MI_1840631_220694915" target="_blank">Realtor.com Review</a><br><br>
     </span>
   </div>
-</div>
 
-<div class="row">
-
-  <div class="col-1 space" id="space3"></div>
-
-  <div class="col-2 center" id="leonard">
+  <div class="col-4 center" id="leonard">
     <a href="http://www.exitselectpartners.com/agents/35-Leonard-Cradit/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_35_photo.jpg/t1/175x300" alt="Leonard Cradit, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -276,8 +263,13 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <p>Links Coming Soon</p>
     </span>
   </div>
+</div>
+    
+<div class="row">
 
-  <div class="col-3 center" id="gary">
+  <div class="col-1 space" id="space3"></div>
+
+  <div class="col-2 center" id="gary">
     <a href="http://www.exitselectpartners.com/agents/15-Gary-Dunckel/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_15_photo-1454420435.jpg/t1/175x300" alt="Gary Dunckel, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -287,7 +279,7 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-4 center" id="holli">
+  <div class="col-3 center" id="holli">
     <a href="http://www.exitselectpartners.com/agents/21-Holli-Gomes/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_21_photo-1461949687.jpg/t1/175x300" alt="Holli Gomes, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -296,13 +288,9 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <p>Links Coming Soon</p>
     </span>
   </div>
-</div>
+    
 
-<div class="row">
-
-  <div class="col-1 space" id="space4"></div>
-
-  <div class="col-2 center" id="mikeg">
+  <div class="col-4 center" id="mikeg">
     <a href="http://www.exitselectpartners.com/agents/24-Michael-Graham/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_24_photo-1465318697.jpg/t1/175x300" alt="Michael Graham, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -310,6 +298,21 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <span class="font80">REALTOR&reg;</span></h3><br>
       <a href="https://www.zillow.com/profile/Michael-Graham96/#reviews" target="_blank">Zillow Review</a><br><br>
       <a href="http://www.realtor.com/realestateagents/Michael-Graham_Okemos_MI_2491910_920584915" target="_blank">Realtor.com Review</a><br><br>
+    </span>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-1 space" id="space4"></div>
+
+    
+  <div class="col-2 center" id="chris">
+    <a href="https://www.exitselectpartners.com/agents/37-Chris-Hocquard/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_37_photo-1498750282.jpg" alt="Chris Hocquard, REALTOR&reg;" border="0"></a>
+    <span class="textLeft">
+      <h3>Chris Hocquard
+      <span class="font80">REALTOR&reg;</span></h3><br>
+      <p>Links Coming Soon</p>
     </span>
   </div>
 
