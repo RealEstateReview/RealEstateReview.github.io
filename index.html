@@ -30,7 +30,7 @@
   <option value="suef">Sue Flores</option>
   <option value="holli">Holli Gomes</option>
   <option value="mikeg">Michael Graham</option>
-  <option value="chris">Jamie Holland</option>
+  <option value="jamie">Jamie Holland</option>
   <option value="leo">Leo Maguire</option>
   <option value="ron">Ron Maguire</option>
   <option value="mikem">Michael Martin</option>
@@ -71,9 +71,10 @@ document.getElementById("stacey").style.display="block";
 document.getElementById("glenn").style.display="block";
 document.getElementById("leonard").style.display="block";
 document.getElementById("gary").style.display="block";
+document.getElementById("suef").style.display="block";
 document.getElementById("holli").style.display="block";
 document.getElementById("mikeg").style.display="block";
-document.getElementById("chris").style.display="block";
+document.getElementById("jamie").style.display="block";
 document.getElementById("leo").style.display="block";
 document.getElementById("ron").style.display="block";
 document.getElementById("mikem").style.display="block";
@@ -102,9 +103,10 @@ document.getElementById("stacey").style.display="none";
 document.getElementById("glenn").style.display="none";
 document.getElementById("leonard").style.display="none";
 document.getElementById("gary").style.display="none";
+document.getElementById("suef").style.display="none";
 document.getElementById("holli").style.display="none";
 document.getElementById("mikeg").style.display="none";
-document.getElementById("chris").style.display="none";
+document.getElementById("jamie").style.display="none";
 document.getElementById("leo").style.display="none";
 document.getElementById("ron").style.display="none";
 document.getElementById("mikem").style.display="none";
@@ -139,14 +141,17 @@ document.getElementById("demo").innerHTML = document.getElementById("leonard").i
   if (x === "gary") {
 document.getElementById("demo").innerHTML = document.getElementById("gary").innerHTML;
 }
+  if (x === "suef") {
+document.getElementById("demo").innerHTML = document.getElementById("suef").innerHTML;
+}
   if (x === "holli") {
 document.getElementById("demo").innerHTML = document.getElementById("holli").innerHTML;
 }
   if (x === "mikeg") {
 document.getElementById("demo").innerHTML = document.getElementById("mikeg").innerHTML;
 }
-  if (x === "chris") {
-document.getElementById("demo").innerHTML = document.getElementById("chris").innerHTML;
+  if (x === "jamie") {
+document.getElementById("demo").innerHTML = document.getElementById("jamie").innerHTML;
 }
   if (x === "leo") {
 document.getElementById("demo").innerHTML = document.getElementById("leo").innerHTML;
@@ -280,7 +285,18 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-3 center" id="holli">
+  <div class="col-3 center" id="suef">
+    <a href="https://www.exitselectpartners.com/agents/40-Sue-Flores/listings/" target="_blank">
+    <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_40_photo-1505240715.jpg/t1/175x300" alt="Sue Flores, REALTOR&reg;" border="0"></a>
+    <span class="textLeft">
+      <h3>Sue Flores
+      <span class="font80">REALTOR&reg;</span></h3><br>
+      <a href="https://www.facebook.com/suefloresrealtor/reviews/" target="_blank">Facebook Review</a><br><br>
+      <a href="https://www.realtor.com/realestateagents/Susan-Flores_Okemos_MI_1470511_326584915" target="_blank">Realtor.com Review</a>
+    </span>
+  </div>
+
+  <div class="col-4 center" id="holli">
     <a href="http://www.exitselectpartners.com/agents/21-Holli-Gomes/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_21_photo-1461949687.jpg/t1/175x300" alt="Holli Gomes, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -291,7 +307,14 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
   </div>
     
 
-  <div class="col-4 center" id="mikeg">
+
+</div>
+
+<div class="row">
+
+  <div class="col-1 space" id="space4"></div>
+
+  <div class="col-2 center" id="mikeg">
     <a href="http://www.exitselectpartners.com/agents/24-Michael-Graham/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_24_photo-1465318697.jpg/t1/175x300" alt="Michael Graham, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -301,23 +324,18 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <a href="http://www.realtor.com/realestateagents/Michael-Graham_Okemos_MI_2491910_920584915" target="_blank">Realtor.com Review</a><br><br>
     </span>
   </div>
-</div>
-
-<div class="row">
-
-  <div class="col-1 space" id="space4"></div>
 
     
-  <div class="col-2 center" id="chris">
-    <a href="#" target="_blank"><img class="resize" src="#" alt="Chris Hocquard, REALTOR&reg;" border="0" width="134" height="188"></a>
+  <div class="col-3 center" id="jamie">
+    <a href="https://www.exitselectpartners.com/agents/39-Jamie-Holland/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_39_photo-1504193422.jpg/t1/175x300" alt="Jamie Holland, REALTOR&reg;" border="0" width="134" height="188"></a>
     <span class="textLeft">
-      <h3>New Agent
+      <h3>Jamie Holland
       <span class="font80">REALTOR&reg;</span></h3><br>
       <p>Links Coming Soon</p>
     </span>
   </div>
 
-  <div class="col-3 center" id="leo">
+  <div class="col-4 center" id="leo">
     <a href="http://www.exitselectpartners.com/agents/12-Leo-Maguire/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_12_photo-1459773719.jpg/t1/175x300" alt="Leo Maguire, Associate Broker/REALTOR&reg;" border="0"></a>
     <span class="textLeft">
       <h3>Leo Maguire
@@ -326,7 +344,13 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-4 center" id="ron">
+</div>
+
+<div class="row">
+
+  <div class="col-1 space" id="space5"></div>
+
+  <div class="col-2 center" id="ron">
     <a href="http://www.exitselectpartners.com/agents/11-Ron-Maguire/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_11_photo-1459773744.jpg/t1/175x300" alt="Ron Maguire, Associate Broker/REALTOR&reg;" border="0"></a>
     <span class="textLeft">
       <h3>Ron Maguire
@@ -334,13 +358,8 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <p>Links Coming Soon</p>
     </span>
   </div>
-</div>
 
-<div class="row">
-
-  <div class="col-1 space" id="space5"></div>
-
-  <div class="col-2 center" id="mikem">
+  <div class="col-3 center" id="mikem">
     <a href="http://www.exitselectpartners.com/agents/31-Michael-Martin/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_31_photo-1482162840.jpg/t1/175x300" alt="Michael Martin, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
       <h3>Michael Martin
@@ -349,7 +368,7 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-3 center" id="mark">
+  <div class="col-4 center" id="mark">
     <a href="http://www.exitselectpartners.com/agents/28-Mark-McCrumb/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_28_photo-1467817392.jpg/t1/175x300" alt="Mark McCrumb, Realtor&reg;" border="0"></a>
     <span class="textLeft">
       <h3>Mark McCrumb
@@ -359,7 +378,13 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-4 center" id="justin">
+</div>
+
+<div class="row">
+  
+  <div class="col-1 space" id="space6"></div>
+
+  <div class="col-2 center" id="justin">
     <a href="http://www.exitselectpartners.com/agents/29-Justin-Petersen/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_29_photo-1479863131.jpg/t1/175x300" alt="Justin Petersen, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -368,13 +393,8 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
       <p>Links Coming Soon</p>
     </span>
   </div>
-</div>
 
-<div class="row">
-  
-  <div class="col-1 space" id="space6"></div>
-
-  <div class="col-2 center" id="tammie">
+  <div class="col-3 center" id="tammie">
     <a href="http://www.exitselectpartners.com/agents/33-Tammie-Plaunt/listings/" target="_blank">
     <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_33_photo.jpg/t1/175x300" alt="Tammie Plaunt, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
@@ -384,7 +404,7 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-3 center" id="deanna">
+  <div class="col-4 center" id="deanna">
     <a href="http://www.exitselectpartners.com/agents/4-Deanna-Powers/listings/" target="_blank"><img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_4_photo.jpg/t1/175x300" alt="Deanna Powers, REALTOR&reg;" border="0"></a>
     <span class="textLeft">
       <h3>Deanna Powers
@@ -394,15 +414,6 @@ document.getElementById("demo").innerHTML = document.getElementById("lynne").inn
     </span>
   </div>
 
-  <div class="col-4 center" id="kim">
-    <a href="http://www.exitselectpartners.com/agents/19-Kimberly-Robbins/listings/" target="_blank">
-    <img class="resize" src="https://paimg.onjax.com/agents/exitselectpartners/agent_19_photo-1462884775.jpg/t1/175x300" alt="Kimberly Robbins, REALTOR&reg;" border="0"></a>
-    <span class="textLeft">
-      <h3>Kimberly Robbins
-      <span class="font80">REALTOR&reg;</span></h3><br>
-      <p>Links Coming Soon</p>
-    </span>
-  </div>
 </div>
 
 <div class="row">
